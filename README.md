@@ -21,6 +21,7 @@ This repository contains my source code and solutions for the weekly classes in 
 - `week10/`: Functions in Java Programming Language
 - `week11/`: Practice on Functions in Java Programming Language
 - `week12/`: Object Oriented Programming in Java Programming Language
+- `week13/`: ArrayList data type in Java Programming Language
 
 
 
