@@ -4,12 +4,11 @@
  * Ajou university in Tashkent
  * Department of Electrical and Computer Engineering
  * developed by Tangirov Akbar
- * 
  * This program multiplies two matrices
  */
 
 public class MultiplicationTwoMatrices {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("\n=================================");
         System.out.println("Multiplication of two matrices");
 
@@ -20,6 +19,7 @@ public class MultiplicationTwoMatrices {
         int[][] a = new int[n][n];
         int[][] b = new int[n][n];
         int[][] c = new int[n][n];
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 a[i][j] = (int) (Math.random() * 10);
@@ -31,7 +31,7 @@ public class MultiplicationTwoMatrices {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 for (int k = 0; k < n; k++) {
-                    c[i][j] += a[j][k] * b[k][j];
+                    c[i][j] += a[i][k] * b[k][j];
                 }
             }
         }
