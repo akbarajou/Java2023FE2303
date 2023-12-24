@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Person {
     private String name;
@@ -16,5 +15,9 @@ public class Person {
 
     public String getName() {
         return name;
+    }
+
+    public String toString() {
+        return "[" + this.name + ", age: " + this.age + "]";
     }
 }
