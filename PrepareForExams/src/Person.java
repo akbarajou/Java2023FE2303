@@ -17,7 +17,12 @@ public class Person {
         return name;
     }
 
+    public void display() {
+        System.out.println("Name: " + this.name);
+        System.out.println("Age:  " + this.age);
+    }
+
     public String toString() {
-        return "[" + this.name + ", age: " + this.age + "]";
+        return "[" + this.name + ", age:" + this.age + "]";
     }
 }
