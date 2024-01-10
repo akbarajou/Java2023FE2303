@@ -1,11 +1,11 @@
 # Ajou University in Tashkent - Electrical and Computer Engineering
 
-This repository contains my source code and solutions for the weekly classes in my Java course at Ajou University in Tashkent.
+This repository contains my source code and solutions for the weekly classes in my Java2023FE2303 course at Ajou University in Tashkent.
 ## Course Information
 
 - University: Ajou University in Tashkent
 - Department: Electrical and Computer Engineering
-- Course: Java Programming
+- Course: Programming for Electrical Engineering2: Java2023FE2303
 
 ## Folder Structure
 
